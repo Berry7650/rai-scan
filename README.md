@@ -1,5 +1,9 @@
 # rai-scan — Linux AI CLI Agent Scanner & Safe Cleanup Tool
 
+`rai-scan` detects known AI CLI agents and leftover files from tools such as Codex, Claude, Gemini, OpenAI CLI tools, Copilot-related CLIs, npm packages, pipx apps, cargo binaries, shell startup lines, cache directories, config directories, and systemd units.
+
+It is built for safe cleanup: removals use preview mode, explicit confirmation, recoverable trash, rollback journals, and root-execution refusal.
+
 `rai-scan` finds known AI CLI agents, estimates their disk usage, and can remove
 their files through recoverable trash.
 
